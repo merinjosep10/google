@@ -6,6 +6,7 @@
 }
 
 .cen{display:flex;
+margin:auto;
 position:absolute;
 top:40%;
 left:50%;
@@ -33,6 +34,7 @@ display:flex;
 float:right;
 justify-content:space-between;
 align-items:center;
+vertical-align:middle;
 }
 
 input:hover {
@@ -41,12 +43,15 @@ input:hover {
 
 .sc{
 display: flex;
+  z-index: 3;
+  position: relative;
   min-height: 44px;
   background: #fff;
   border: 1px solid #dfe1e5;
+  box-shadow: none;
   border-radius: 24px;
+  margin: 0 auto;
   width: 584px;
-  flex:100%;
 }
 
 .b1{background-color: #f8f9fa;
@@ -57,7 +62,9 @@ display: flex;
   font-size: 14px;
   margin: 11px 4px;
   padding: 0 16px;
+  line-height: 27px;
   height: 36px;
+  min-width: 54px;
   text-align: center;
   cursor: pointer;
 }
@@ -71,14 +78,15 @@ color: #474747;
 }
 
 
-.I{position:absolute;
-bottom:50px;
+.I{display:flex;
 background-color:#f2f2f2;
 padding: 15px 0px;
   border-bottom: 1px solid #dadce0;
   font-size: 15px;
   color: #1f1f1f;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
   font-family:sans-serif;
 }
@@ -88,7 +96,7 @@ background-color:#f2f2f2;
 display:flex;
 flex-wrap: wrap;
 justify-content: space-between;
-padding:15px 0px;
+float:bottom;
 bottom:0px;
 position:absolute;
 }
@@ -96,6 +104,7 @@ position:absolute;
 .f1{display:flex;
 text-align:left;
 margin-left:20px;
+padding: 15px 0px;
 justify-content: space-between;
 width:400px;
 }
@@ -103,12 +112,13 @@ width:400px;
 .f2{display:flex;
 text-align:right;
 margin-right:20px;
-margin-left:720px;
+padding: 15px 0px;
 width:210px;
 justify-content: space-between;
 }
 
 .f12{display:flex;
 justify-content: space-between;
-width:100%;
+width: 100vw;
 }
+
