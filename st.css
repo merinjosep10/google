@@ -7,10 +7,6 @@ background-color:#f2f2f2;
 border-radius:200px !important;
 min-height: 44px;
 }
-
-body{
-font-size:.9rem  !important;
-}
 input:hover {
   box-shadow: 0 0 10px rgba(0,0,0,.3);
 }
@@ -23,6 +19,10 @@ text-decoration:none;
 a:hover{color:black;
 text-decoration:underline;
 }
+body{
+font-size:.9rem  !important;
+}
+
 .language{
 font-size:.8rem  !important;
 }
