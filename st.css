@@ -11,7 +11,18 @@ min-height: 44px;
 body{
 font-size:.9rem  !important;
 }
+input:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
 
+a:link{color:black;
+font-family:sans-serif;
+text-decoration:none;
+}
+
+a:hover{color:black;
+text-decoration:underline;
+}
 .language{
 font-size:.8rem  !important;
 }
